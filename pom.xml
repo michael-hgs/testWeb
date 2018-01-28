@@ -7,6 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <name>CheckPush</name>
 
+
     <!--<parent>-->
     <!--<groupId>com.google.cloud.samples</groupId>-->
     <!--<artifactId>shared-configuration</artifactId>-->
@@ -127,13 +128,11 @@
                 </configuration>
             </plugin>
 
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-compiler-plugin</artifactId>-->
+                <!--<version>1.6</version>-->
+            <!--</plugin>-->
 
 
             <plugin>
