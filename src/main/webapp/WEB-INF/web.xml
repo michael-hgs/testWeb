@@ -1,7 +1,15 @@
 <web-app version="2.4"
 	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<!--<web-app version="3.0"-->
+			 <!--xmlns="java.sun.com/xml/ns/javaee"-->
+			 <!--xmlns:xsi="w3.org/2001/XMLSchema-instance"-->
+			 <!--xsi:schemaLocation="java.sun.com/xml/ns/javaee java.sun.com/xml/ns/javaee/web-app_3_0.xsd"-->
+			 <!--metadata-complete="false">-->
+
+	<!--</web-app>-->
 
 	<display-name>Spring MVC Application</display-name>
 

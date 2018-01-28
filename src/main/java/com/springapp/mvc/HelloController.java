@@ -1,5 +1,6 @@
 package com.springapp.mvc;
 
+import com.google.appengine.api.ThreadManager;
 import com.notnoop.apns.APNS;
 import com.notnoop.apns.ApnsService;
 import org.springframework.stereotype.Controller;
@@ -54,7 +55,7 @@ public class HelloController {
 //		System.out.println("hello  " + file.exists());
 
 		ApnsService service = APNS.newService()
-
+				.withErrorDetectionThreadFactory(ThreadManager.currentRequestThreadFactory())
 				.withCert(pathArr[0] + "/src/main/java/check.p12", "1234")
 				.withSandboxDestination()
 				.build();
@@ -105,7 +106,7 @@ public class HelloController {
 //		System.out.println("hello  " + file.exists());
 
 		ApnsService service = APNS.newService()
-
+				.withErrorDetectionThreadFactory(ThreadManager.currentRequestThreadFactory())
 				.withCert(pathArr[0] + "/src/main/java/check.p12", "1234")
 				.withSandboxDestination()
 				.build();
