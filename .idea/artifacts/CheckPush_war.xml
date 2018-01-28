@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="CheckPush:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CheckPush.war">
+      <element id="artifact" artifact-name="CheckPush:war exploded" />
+    </root>
+  </artifact>
+</component>
