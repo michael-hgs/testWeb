@@ -22,7 +22,7 @@ public class HelloController {
 				.build();
 
 		String payload = APNS.newPayload()
-				.alertBody("Cant be simpler than this!")
+				.alertBody("Cant be simpler than this!").sound("default")
 				.alertTitle("test alert title").build();
 //
 		String token = "f36172e3301f6c5fa35011528f4527b1940af25d7adb9d94286ca87a88dcf6e0";
