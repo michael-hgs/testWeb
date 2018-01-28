@@ -15,7 +15,7 @@ import java.net.URLDecoder;
 import java.security.CodeSource;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/hello")
 public class HelloController {
 	@RequestMapping(method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
