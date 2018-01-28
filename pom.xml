@@ -99,6 +99,14 @@
             <version>2.12.4</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.google.cloud.tools/appengine-plugins-core -->
+        <!--<dependency>-->
+            <!--<groupId>com.google.cloud.tools</groupId>-->
+            <!--<artifactId>appengine-plugins-core</artifactId>-->
+            <!--<version>0.1.2</version>-->
+        <!--</dependency>-->
+
+
         <!-- https://mvnrepository.com/artifact/com.google.cloud.tools/appengine-maven-plugin -->
         <!--<dependency>-->
             <!--<groupId>com.google.cloud.tools</groupId>-->
